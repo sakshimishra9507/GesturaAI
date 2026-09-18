@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Live | Gestura AI{% endblock %}{% block content %}<h1>Gestura AI</h1><p>Real-time gesture recognition.</p><section class="card"><h2>Live Camera</h2><img class="video" src="{{url_for('video_feed')}}" alt="Live recognition"><p>Train a model first if the dashboard reports model_not_trained.</p></section>{% endblock %}
